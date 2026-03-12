@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://6efc7o2xp0jk"]
+
+[ext_resource type="Script" uid="uid://c66hamt6h6l1u" path="res://game_grid.gd" id="1_0pwxn"]
+[ext_resource type="PackedScene" uid="uid://bkxdnqwghpuau" path="res://grid_box.tscn" id="2_ikig0"]
+
+[node name="GameGrid" type="PanelContainer" unique_id=271761965]
+custom_minimum_size = Vector2(500, 500)
+offset_right = 500.0
+offset_bottom = 500.0
+script = ExtResource("1_0pwxn")
+grid_coords = Vector2i(10, 10)
+grid_box = ExtResource("2_ikig0")
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=194252473]
+custom_minimum_size = Vector2(500, 500)
+layout_mode = 2

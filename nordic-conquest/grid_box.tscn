@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bkxdnqwghpuau"]
+
+[node name="GridBox" type="Control" unique_id=568907531]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 3
+anchors_preset = 0
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1450526550]
+layout_mode = 0
+offset_right = 64.0
+offset_bottom = 64.0
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1720600491]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 56.0
+offset_bottom = 56.0
+color = Color(0.5058824, 0.5254902, 0.53333336, 1)
