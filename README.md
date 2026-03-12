@@ -26,9 +26,7 @@ https://docs.godotengine.org/en/4.4/contributing/development/compiling/index.htm
 ## Objective
 The objective of the game is to defeat your opponent by correctly remembering important gameplay information and using it to make better tactical decisions.
 Players who remember previously revealed information can gain advantages such as:
-Predicting enemy actions
-Choosing optimal attacks
-Avoiding traps or hidden mechanics
+Predicting enemy actions, choosing optimal attacks, avoiding traps or hidden mechanics
 
 ### License
 https://github.com/herbyxo/open_source_rpggame/blob/main/LICENSE
