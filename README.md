@@ -1,7 +1,7 @@
 # open_source_rpggame - Software Process Improvement Demo Open Source Project
 
 ## Description
-This is a multiplayer memory combat game where 2-4 players compete using both strategy and memory. Players must remember information revealed during gameplay and use it to gain an advantage in combat.
+This is a 2D multiplayer memory combat game where 2-4 players compete using both strategy and memory. Players must remember information revealed during gameplay and use it to gain an advantage in combat.
 
 ## Tech Stack
 Build Godot from source using the official installation guide for your relevant device:
