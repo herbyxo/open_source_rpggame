@@ -1,15 +1,21 @@
 # Design Decisions and Architecture
 ## Description
-### Example
+Page used to document design decision and code architecture. Scripts attached to architecture are not necessary.
+If wanting to implement a new type/file, name that as the heading (##). 
+And then design is what is in it, and architecture is the code
+
+## Example
+-------------------
+## Player
 Design: Player Character (Pirate) - Architecture: 2DPlayerBody
 
-## Playable Area - Custom grid class
-### Methods
-- initialise grid
-- get index from coords
-- uncover tile at coords
+-------------------
 
-## Tile - Custom tile class
+## Playable Area
+
+
+
+## Tile 
 ### Nodes
 - Sprite
 
@@ -18,11 +24,7 @@ Design: Player Character (Pirate) - Architecture: 2DPlayerBody
 - PointValue
 
 ## Player - Custom player class
-### Nodes
-- Camera
-- Sprite
-### Methods
-- Move
+
 
 ## Enemy - Custom enemy class
 ### Nodes
