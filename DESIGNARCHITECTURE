@@ -25,3 +25,8 @@ Steal a card from a player
 
 ## UI
 
+*Combat*
+Display current card player holding
+Display numbers, one by one
+Display users current input
+Interaction button for using cards ability
