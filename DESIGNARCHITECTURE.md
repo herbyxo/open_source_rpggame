@@ -1,13 +1,13 @@
 # Design Decisions and Architecture
 ## Description
 Page used to document design decision and code architecture. Scripts attached to architecture are not necessary.
-If wanting to implement a new type/file, name that as the heading (##). 
-And then design is what is in it, and architecture is the code
+If wanting to implement a new abstract class, name that as the heading (##). 
+And then design is its name, and architecture is the type
 
 ## Example
 -------------------
 ## Player
-Design: Player Character (Pirate) - Architecture: 2DPlayerBody
+Design: playerCharacter - Architecture: 2DPlayerBody
 
 -------------------
 
