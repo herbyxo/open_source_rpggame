@@ -6,11 +6,13 @@ Design: Player Character (Pirate) - Architecture: 2DPlayerBody
 ## Autoloads (Global Scripts)
 - const TILE_PIXELS: to standardise tile size everywhere
 
-## Game
+## Game - Architecture: Node
 ### Description
 This should be a scene / node that contains the grid, players, UI and manages win conditions, etc. based on the interactions between the two
 
-## Playable Area - (Node) Custom GameGrid class
+## Playable Area - Architecture: Node
+### Script
+Custom GameGrid class
 ### Nodes
 ### Variables
 - grid_coords: (export) stores size of map
@@ -25,17 +27,23 @@ This should be a scene / node that contains the grid, players, UI and manages wi
 - uncover_tile_at_coords(Vector2 coords):
 	updates visible_grid and grid visuals
 
-## Tile - Custom tile Resource
+## Tile - Architecture: Node2D
+### Script
+Custom Tile Resource
 ### Description
 Use a Resource or Node - Resources as tiles are fairly static and the values shouldn't really change
 ### Nodes
 - Sprite
 
-## Wonder - Custom tile class
+## Wonder - Architecture: Node2D (inherits from Tile)
+### Script
+Inherit from Tile class
 ### Variables
 - PointValue: exploration points
 
-## Player - Custom player class
+## Player - Architecture: Node2D
+### Script
+Custom player class
 ### Nodes
 - Camera: 
 so player can move freely around the map without being restricted by vision
@@ -46,7 +54,8 @@ so player can move freely around the map without being restricted by vision
 ### Methods
 - move(Vector2 move_to) : move based on the value of move_to (e.g move_to = (0, 1))
 
-## Enemy - Custom enemy class
+## Enemy - Architecture: Node2D (inherits from Tile)
+Custom enemy class
 ### Nodes
 - Sprite
 ### Variables
@@ -54,7 +63,7 @@ so player can move freely around the map without being restricted by vision
 ### Methods
 - attack()
 
-## Cards
+## Cards - Architecture: Resource
 Cards are obtained as a combat reward by defeating barbarians, or by exploring rare landmarks. Players can choose from 3 random cards.
 
 Classes:
