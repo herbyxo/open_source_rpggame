@@ -10,7 +10,7 @@ Design: Player Character (Pirate) - Architecture: 2DPlayerBody
 ### Description
 This should be a scene / node that contains the grid, players, UI and manages win conditions, etc. based on the interactions between the two
 
-## Playable Area - Custom GameGrid class
+## Playable Area - (Node) Custom GameGrid class
 ### Nodes
 ### Variables
 - grid_coords: (export) stores size of map
